@@ -1,0 +1,40 @@
+body {
+    margin: 20px auto;
+    max-width: 1024px;
+    position: relative;
+    min-height: 100vh;
+}
+
+.error {
+    color: red;
+}
+
+.progress {
+    background-color: #6aa1cb;
+    padding: 0.5em;
+}
+
+#grammar {
+    font-family: monospace;
+}
+
+.pure-control-group {
+    margin: 1em 0;
+}
+
+#output, #stats {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    white-space: pre-wrap;
+}
+
+#examples button {
+    display: inline-block;
+    margin: 0.5em 0.5em;
+}
+
+span.generated {
+    background-color: #9dff1c;
+}
