@@ -15,6 +15,12 @@
         <div id="msg-progress"></div>
       </div>
       <h1>llguidance-wasm demo</h1>
+      <select id="model_selector">
+        <option value="Phi-3-mini-4k-instruct-q4f16_1-MLC">Phi 3</option>
+        <option value="gemma-2-2b-it-q4f16_1-MLC">Gemma2 2B</option>
+        <option value="Mistral-7B-Instruct-v0.2-q4f16_1-MLC">Mistral 7B</option>
+        <option value="Llama-3.1-8B-Instruct-q4f16_1-MLC">Lamma 3.1</option>
+      </select>
       <p>
         This website will load phi-3 mini model (2.1GB), store it in browser
         cache, and then generate text based on the provided grammar. It uses
